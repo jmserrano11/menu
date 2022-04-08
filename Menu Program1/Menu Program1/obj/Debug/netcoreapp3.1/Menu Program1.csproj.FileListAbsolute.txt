@@ -1,0 +1,17 @@
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\bin\Debug\netcoreapp3.1\Menu Program1.exe
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\bin\Debug\netcoreapp3.1\Menu Program1.deps.json
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\bin\Debug\netcoreapp3.1\Menu Program1.runtimeconfig.json
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\bin\Debug\netcoreapp3.1\Menu Program1.runtimeconfig.dev.json
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\bin\Debug\netcoreapp3.1\Menu Program1.dll
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\bin\Debug\netcoreapp3.1\Menu Program1.pdb
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\obj\Debug\netcoreapp3.1\Menu Program1.csproj.AssemblyReference.cache
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\obj\Debug\netcoreapp3.1\Menu_Program1.Form1.resources
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\obj\Debug\netcoreapp3.1\Menu Program1.csproj.GenerateResource.cache
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\obj\Debug\netcoreapp3.1\Menu Program1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\obj\Debug\netcoreapp3.1\Menu Program1.AssemblyInfoInputs.cache
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\obj\Debug\netcoreapp3.1\Menu Program1.AssemblyInfo.cs
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\obj\Debug\netcoreapp3.1\Menu Program1.csproj.CoreCompileInputs.cache
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\obj\Debug\netcoreapp3.1\Menu Program1.dll
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\obj\Debug\netcoreapp3.1\Menu Program1.pdb
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\obj\Debug\netcoreapp3.1\Menu Program1.genruntimeconfig.cache
+C:\Users\Buddys\Desktop\UAT\Menu Program1\Menu Program1\obj\Debug\netcoreapp3.1\Menu_Program1.Form2.resources
