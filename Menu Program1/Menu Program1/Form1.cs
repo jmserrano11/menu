@@ -164,6 +164,18 @@ namespace Menu_Program1
 
         }
 
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            linkLabel2.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://natashaskitchen.com/pan-seared-steak/");
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            linkLabel3.LinkVisited = true;
+            System.Diagnostics.Process.Start("https://www.dinneratthezoo.com/seafood-boil-recipe/");
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
             chickenrecipe1 = Image.FromFile("chickenrecipe1.jpg");

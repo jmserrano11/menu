@@ -38,7 +38,6 @@ namespace Menu_Program1
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.button7 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
@@ -52,6 +51,7 @@ namespace Menu_Program1
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -76,7 +76,7 @@ namespace Menu_Program1
             this.button2.Location = new System.Drawing.Point(78, 183);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
+            this.button2.TabIndex = 4;
             this.button2.Text = "Steak";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -88,7 +88,7 @@ namespace Menu_Program1
             this.button3.Location = new System.Drawing.Point(78, 253);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
+            this.button3.TabIndex = 7;
             this.button3.Text = "Seafood";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -99,7 +99,7 @@ namespace Menu_Program1
             this.button4.Location = new System.Drawing.Point(254, 113);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(105, 23);
-            this.button4.TabIndex = 4;
+            this.button4.TabIndex = 2;
             this.button4.Text = "Chicken Image";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -121,7 +121,7 @@ namespace Menu_Program1
             this.button6.Location = new System.Drawing.Point(254, 252);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(105, 23);
-            this.button6.TabIndex = 6;
+            this.button6.TabIndex = 8;
             this.button6.Text = "Seafood Image";
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -150,23 +150,13 @@ namespace Menu_Program1
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(386, 310);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(123, 23);
-            this.textBox3.TabIndex = 15;
-            this.textBox3.Text = "TOTAL";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
-            // 
             // button7
             // 
             this.button7.BackColor = System.Drawing.Color.Red;
             this.button7.Location = new System.Drawing.Point(737, 594);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(170, 23);
-            this.button7.TabIndex = 19;
+            this.button7.TabIndex = 10;
             this.button7.Text = "Go To Bill";
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
@@ -176,9 +166,9 @@ namespace Menu_Program1
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(399, 116);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(83, 19);
-            this.checkBox1.TabIndex = 20;
-            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(69, 19);
+            this.checkBox1.TabIndex = 3;
+            this.checkBox1.Text = "Chicken";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
@@ -187,9 +177,9 @@ namespace Menu_Program1
             this.checkBox2.AutoSize = true;
             this.checkBox2.Location = new System.Drawing.Point(399, 183);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(83, 19);
-            this.checkBox2.TabIndex = 21;
-            this.checkBox2.Text = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(54, 19);
+            this.checkBox2.TabIndex = 6;
+            this.checkBox2.Text = "Steak";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
@@ -198,9 +188,9 @@ namespace Menu_Program1
             this.checkBox3.AutoSize = true;
             this.checkBox3.Location = new System.Drawing.Point(399, 252);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(83, 19);
-            this.checkBox3.TabIndex = 22;
-            this.checkBox3.Text = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(69, 19);
+            this.checkBox3.TabIndex = 9;
+            this.checkBox3.Text = "Seafood";
             this.checkBox3.UseVisualStyleBackColor = true;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
@@ -284,16 +274,28 @@ namespace Menu_Program1
             this.linkLabel2.TabIndex = 30;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Steak Recipe";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
             this.linkLabel3.Location = new System.Drawing.Point(255, 231);
             this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(87, 15);
+            this.linkLabel3.Size = new System.Drawing.Size(88, 15);
             this.linkLabel3.TabIndex = 31;
             this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Seafooe Recipe";
+            this.linkLabel3.Text = "Seafood Recipe";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(78, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(206, 20);
+            this.label1.TabIndex = 32;
+            this.label1.Text = "Jojo\'s Mojo\'s Eatery";
             // 
             // Form1
             // 
@@ -301,6 +303,7 @@ namespace Menu_Program1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(934, 618);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
@@ -314,7 +317,6 @@ namespace Menu_Program1
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button7);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
@@ -345,7 +347,6 @@ namespace Menu_Program1
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.CheckBox checkBox2;
@@ -359,6 +360,7 @@ namespace Menu_Program1
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.Windows.Forms.Label label1;
     }
 }
 
